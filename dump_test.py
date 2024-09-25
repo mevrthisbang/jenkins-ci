@@ -18,7 +18,7 @@ class TestSnippet(unittest.TestCase):
 
     def test_add_function_set_2(self):
         print(f"Testing function - add Set 2")
-        data_list = [[75, 17, 92], [645, 6, 651], [432, 2343, 2775]]                                                                                                 301]]
+        data_list = [[75, 17, 92], [645, 6, 651], [432, 2343, 2775]]             
 
         for data in data_list:
             result = add(data[0], data[1])
